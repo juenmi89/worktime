@@ -1,6 +1,6 @@
 			h1{
 				border-bottom: green solid 2px;
-				text-align: center;
+				/*text-align: center; */
 				padding-bottom: 10px;
 				margin-bottom: 0px;
 				margin-top: 10px;
@@ -13,10 +13,11 @@
 				display:grid;
 				grid-template-columns:200px 150px 1fr;
 				font-size:x-large;
+				padding-bottom: 10px;
 			}
 			#grid ul{
 				border-right:gray solid 2px;
-				margin-top:11px;
+				margin-top:0px;
 				padding-left:30px;
 			}
 			a{
@@ -26,12 +27,14 @@
 			#name{
 				padding-left:30px;
 				padding-top:10px;
-				line-height: 150%
+				line-height: 150%;
+				padding-top:0px;
 			}
 			#time{
 				padding-left:30px;
 				padding-top:10px;
-				line-height: 150%
+				line-height: 150%;
+				padding-top:0px;
 			}			
 			@media(min-width:600px){
 				#total{
