@@ -1,0 +1,45 @@
+			h1{
+				border-bottom: green solid 2px;
+				text-align: center;
+				padding-bottom: 10px;
+				margin-bottom: 0px;
+				margin-top: 10px;
+			}
+			.main{
+				margin-bottom: 0px;
+				margin-top:10px;
+			}
+			#grid{
+				display:grid;
+				grid-template-columns:200px 150px 1fr;
+				font-size:x-large;
+			}
+			#grid ul{
+				border-right:gray solid 2px;
+				margin-top:11px;
+				padding-left:30px;
+			}
+			a{
+				color:black;
+				text-decoration: none;
+			}
+			#name{
+				padding-left:30px;
+				padding-top:10px;
+				line-height: 150%
+			}
+			#time{
+				padding-left:30px;
+				padding-top:10px;
+				line-height: 150%
+			}			
+			@media(min-width:600px){
+				#total{
+					height:300px;
+				}
+			}
+			#holiname{
+				font-size:x-large;
+				margin-bottom: 10px;
+				line-height: 150%
+			}
